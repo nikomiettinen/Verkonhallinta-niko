@@ -10,3 +10,5 @@ Tämä repositorio on verkkoinfrastruktuurin suunnittelu- ja hallintaharjoitus. 
 ## Tarkoitus
 
 Harjoitella verkon rakentamista, hallintaa ja monitorointia sekä ymmärtää reitityksen, palvelinverkkojen ja turvallisuuden perusperiaatteet käytännön esimerkkien avulla.
+
+Tekoälyä käytetty jokaisessa tehtävässä jonkin verran. Chatgpt ja githubin oma copilotti.
