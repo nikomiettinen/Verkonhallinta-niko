@@ -1,0 +1,57 @@
+Tehtävä 6.1 – Tutustu Zabbixiin
+
+Hosts: Laitteet ja palvelimet, joita Zabbix valvoo.
+Templates: Valmiit pohjat, jotka sisältävät valvontakohteiden asetuksia ja mittareita.
+Monitoring: Näyttää valvottavien laitteiden tilan, tiedot ja ongelmat.
+Dashboards: Koontinäkymät, joista näkee tärkeimmät valvontatiedot yhdellä silmäyksellä.
+Alerts: Hälytykset ongelmista, kuten palvelimen kaatumisesta tai suuresta kuormituksesta.
+Reports: Raportit valvonnan tuloksista, ongelmista ja järjestelmän toiminnasta.
+https://i.imgur.com/f0pD5fi.png
+
+Tehtävä 6.2 – Lisää web1 valvontaan
+
+Tehdään web1 hosti? https://i.imgur.com/zPv6mlL.png
+lisätään linux by zabbix agentti https://i.imgur.com/R1MxRWh.png
+
+Tehtävä 6.3 – Lisää db1 valvontaan
+tehdään db1 hosti https://i.imgur.com/zNSLvTO.png
+lisätään template https://i.imgur.com/5zhMGro.png
+mittarit eivät liiku jostakin syystä https://i.imgur.com/Ps0Knyf.png
+
+Tehtävä 6.4 – Lisää branch-client valvontaan
+Tehdään branch-client
+https://i.imgur.com/QASYKba.png
+
+Tehtävä 6.5 – Valvontamittarien analyysi
+
+CPU Usage        Kertoo prosessorin käyttöasteesta ja kuormituksesta.
+Memory Usage      Näyttää, kuinka paljon keskusmuistia on käytössä.
+Load Average       Kuvaa järjestelmän keskimääräistä kuormitusta.
+Uptime  Kertoo,   kuinka kauan palvelin on ollut käynnissä.
+Disk Usage        Näyttää, kuinka paljon levytilasta on käytetty.
+
+Tehtävä 6.6 – Dashboardin luominen
+
+luodaan uusi dashboard https://i.imgur.com/bXdjR8w.png
+
+hostien tila
+https://i.imgur.com/aaIayVW.png
+
+cpu kuorman käyttö 
+https://i.imgur.com/V1du5v8.png
+ttps://i.imgur.com/8GlXVFT.png
+
+muistinkäyttö
+https://i.imgur.com/8OxeeAa.png
+https://i.imgur.com/3okhFcR.png
+
+levytilankäyttö
+https://i.imgur.com/zkzWENM.png
+https://i.imgur.com/d3KFXjT.png
+
+verkkoliikenne
+ei löydy listalta mitään tähän viittaavaa
+
+Tehtävä 6.7 – Triggerien määrittäminen
+lisätään trigger high cpu utilization https://i.imgur.com/hrNCLmA.png
+free disk space https://i.imgur.com/FDrnbeN.png

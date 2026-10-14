@@ -1,0 +1,27 @@
+Tehtävä 4.1 – Tutustu inventoryyn
+
+Inventory sisältää 12 kohdetta: 3 reititintä, 3 työasemaa, 2 palvelinta ja 4 valvontapalvelua.
+
+Laitteet on jaettu käyttötarkoituksen mukaan neljään ryhmään: routers, clients, servers ja monitoring.
+
+Ryhmien avulla voidaan hallita useita laitteita samanaikaisesti, käyttää yhteisiä asetuksia ja suorittaa Ansible-komentoja helposti tietyille laiteryhmille.
+
+https://i.imgur.com/dcbxSW0.png
+https://i.imgur.com/futWBb3.png
+
+Tehtävä 4.2 – Suorita ensimmäinen playbook
+
+playbook hakemisto ja komennon suoritus https://i.imgur.com/066UsaC.png
+
+Mitä playbook tekee?
+Playbook (ping.yml) testaa Ansible-yhteyden Linux-laitteisiin ja tarkistaa, ovatko ne tavoitettavissa.
+Mitä tuloksista voidaan päätellä?
+Kaikki 10 testattua laitetta ovat UNREACHABLE-tilassa. SSH-yhteys porttiin 22 estyy. Tämä tarkoittaa, ettei Ansible saa yhteyttä laitteisiin SSH:n kautta.
+
+Tehtävä 4.3 – Tutustu valmiisiin esimerkkeihin
+
+valmiit playbook ympäristöt on permission denied. https://i.imgur.com/tHusaHa.png
+
+Tehtävä 4.4 – Oma playbook: palvelimen asennus
+
+En tiedä antaa vain permission deniediä jokasesta kohdasta.

@@ -1,0 +1,43 @@
+Tehtävä 3.1 – Node Exporterin asennus
+Kirjauduttu web1 koneelle ja asennettu tarvittavat työkalut https://i.imgur.com/XcBx67d.png
+Asennetaan node explorer https://i.imgur.com/vL5HtKp.png
+puretaan se https://i.imgur.com/f8k3ZD2.png
+siirrytään node exploreriin https://i.imgur.com/3yMdLUr.png
+käynnistetään node explorer https://i.imgur.com/KPogAvZ.png
+
+Tehtävä 3.2 – Tarkista exporterin toiminta
+Avataan uusi cmd ja tarkistetaan että se vastaa 
+Tuloksena näkyy suuri määrä tekstiä ja mittareita https://i.imgur.com/jkzRa6x.png
+
+Tehtävä 3.3 – Tarkista että Prometheus näkee palvelimen
+Avataan prometheus selaimessa http://localhost:9090/
+Status ja targets https://i.imgur.com/zYw2zwV.png
+Tarkistetaan että web1 näkyy ja tila on UP https://i.imgur.com/m0FuMje.png
+
+Tehtävä 3.4 – Grafanan tietolähde
+Kirjaudu grafanaan
+ASenna prometheus "add new connection" https://i.imgur.com/gO3CXel.png
+kun asennettu "data sources" lisää palvelimelle osoite ja rullaa alas ja save https://i.imgur.com/cSiSPmv.png
+ja pitäisi näkyä onnistunut asennus
+
+Tehtävä 3.5 – Luo dashboard
+Luodaan uusi dashboard https://i.imgur.com/bkYrTeH.png
+nimeä se golden topology monitoring https://i.imgur.com/XkH5wfA.png
+
+cpu https://i.imgur.com/icgvhHN.png
+
+muisti https://i.imgur.com/uWCGIxT.png
+
+levytila https://i.imgur.com/f666lcF.png
+
+verkkoliikenne saapuva https://i.imgur.com/q5s2qQN.png
+
+verkkoliikenne lähtevä https://i.imgur.com/Itg5yGf.png
+
+Tehtävä 3.6 – Kuormituksen generointi
+Aiheutetaan kuormitusta web1 https://i.imgur.com/myZi5AX.png
+cpu kuormitus https://i.imgur.com/L4ljsYh.png
+
+Cpu käyrä nousi kuormituksen aikana ja laski normaaliksi kuormituksen loputtua
+Levytilan käyttö kasvoi hieman
+Verkkoliikenteessä ei näkynyt merkittäviä muutoksia
